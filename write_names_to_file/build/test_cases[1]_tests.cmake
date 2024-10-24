@@ -1,0 +1,7 @@
+add_test( WriteNames_Tests.normalCases /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build/test_cases [==[--gtest_filter=WriteNames_Tests.normalCases]==] --gtest_also_run_disabled_tests)
+set_tests_properties( WriteNames_Tests.normalCases PROPERTIES WORKING_DIRECTORY /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( WriteNames_Tests.edgeCases /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build/test_cases [==[--gtest_filter=WriteNames_Tests.edgeCases]==] --gtest_also_run_disabled_tests)
+set_tests_properties( WriteNames_Tests.edgeCases PROPERTIES WORKING_DIRECTORY /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( WriteNames_Tests.nullCases /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build/test_cases [==[--gtest_filter=WriteNames_Tests.nullCases]==] --gtest_also_run_disabled_tests)
+set_tests_properties( WriteNames_Tests.nullCases PROPERTIES WORKING_DIRECTORY /home/twalker/Code/walker-mentee-evaluation-problems/C/write_names_to_file/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( test_cases_TESTS WriteNames_Tests.normalCases WriteNames_Tests.edgeCases WriteNames_Tests.nullCases)

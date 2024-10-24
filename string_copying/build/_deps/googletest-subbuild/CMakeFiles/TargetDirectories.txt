@@ -1,0 +1,3 @@
+/home/twalker/Code/walker-mentee-evaluation-problems/C/string_copying/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/twalker/Code/walker-mentee-evaluation-problems/C/string_copying/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/twalker/Code/walker-mentee-evaluation-problems/C/string_copying/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

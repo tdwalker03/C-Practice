@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTestCode.a CMakeFiles/TestCode.dir/TestCode.c.o
+/usr/bin/ranlib libTestCode.a
